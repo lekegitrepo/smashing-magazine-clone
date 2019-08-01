@@ -6,18 +6,21 @@ body {
     padding: 0;
 }
 .header-nav {
-    background-color: blueviolet;
-    display: flex;
-    
+    background-color: blueviolet;  
 }
 .parent-nav {
     display: flex;
-    justify-content: space-between;
     height:130px;
     width:100%;
 }
-.nav-links {
-    display:inline-block;      
+ul.nav-links {
+    align-items: center;
+    display:flex; 
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80%;
+
 }
 .nav-links li {
     list-style-type: none;
@@ -25,3 +28,10 @@ body {
 .nav-links li a {
     text-decoration: none;
 }
+#container {
+    background: pink;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+
