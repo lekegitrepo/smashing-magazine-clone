@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-nav {
+    background-color: blueviolet;
+    display: flex;
+    
+}
+.parent-nav {
+    display: flex;
+    justify-content: space-between;
+    height:130px;
+    width:100%;
+}
+.nav-links {
+    display:inline-block;      
+}
+.nav-links li {
+    list-style-type: none;
+}
+.nav-links li a {
+    text-decoration: none;
+}
