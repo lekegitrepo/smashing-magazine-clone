@@ -29,9 +29,48 @@ ul.nav-links {
     text-decoration: none;
 }
 #container {
-    background: pink;
+    position: relative;
+}
+#grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px 300px;
+}
+#page-pointer {
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    margin: 6% 2%;
+    position: absolute;
+    top: 40px;
+    width: 900px;
+}
+.courses-1 {
+    background: #ed234c;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.courses-2 {
+    background: #0f234c;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.courses-3 {
+    background: #dd23aa;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.courses-4 {
+    background: #ccf3bb;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
