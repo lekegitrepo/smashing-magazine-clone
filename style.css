@@ -74,3 +74,30 @@ ul.nav-links {
     grid-row-end: 3;
 }
 /* article grid: */
+.article-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    background-color: aqua;
+}
+.article-one {
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.article-two {
+    background-color: burlywood;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.article-three {
+    background-color: goldenrod;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
