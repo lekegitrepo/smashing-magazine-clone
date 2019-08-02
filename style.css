@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
 }
 .header-nav {
-    background-color: blueviolet;  
+    background-color:#A9A9A9;  
 }
 .parent-nav {
     display: flex;
@@ -48,28 +48,28 @@ ul.nav-links {
     width: 40%;
 }
 .courses-1 {
-    background: #ed234c;
+    background: #D3D3D3;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 .courses-2 {
-    background: #0f234c;
+    background: #808080;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 .courses-3 {
-    background: #dd23aa;
+    background:#808080 ;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 .courses-4 {
-    background: #ccf3bb;
+    background:#D3D3D3 ;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -80,24 +80,23 @@ ul.nav-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 300px;
-    background-color: aqua;
 }
 .article-one, .first-list {
-    background-color: pink;
+    background-color: #DCDCDC;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 .article-two, .second-list {
-    background-color: burlywood;
+    background-color: #DCDCDC;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 .article-three, .third-list {
-    background-color: goldenrod;
+    background-color: #DCDCDC;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -113,11 +112,29 @@ ul.nav-links {
     width: 100%;
 }
 #newletter-section .box-1 {
-    background: #ef2adc;
+    background: #808080;
     width: 30%;
 }
 #newletter-section .box-2 {
-    background: #efdcee;
+    background: #696969;
+    margin: 0px 30px;
+    width: 70%;
+}
+/*icons: */
+#icons-section {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    margin: 20px 20px;
+    justify-content: space-around;
+    width: 100%;
+}
+#icons-section .icons-1 {
+    background: #DCDCDC;
+    width: 30%;
+}
+#icons-section .icons-2 {
+    background: #DCDCDC;
     margin: 0px 30px;
     width: 70%;
 }
