@@ -144,4 +144,53 @@ ul.nav-links {
     height: 6em;
     width: 100%;
 }
+/*grid employees: */
+#employees {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px 400px 400px;
+    margin-top: 1em;
+}
+.leke {   
+    background: #ed234c;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.thais {
+    background:blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.girl-one {
+    background: palegreen;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.girl-two {
+    background: peru;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.boy-one {
+    background: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.boy-two {
+    background: blueviolet;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
 
