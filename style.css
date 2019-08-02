@@ -149,7 +149,7 @@ ul.nav-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 400px 400px 400px;
-    margin-top: 1em;
+    margin-top: 1em;    
 }
 .leke {   
     background: #ed234c;
