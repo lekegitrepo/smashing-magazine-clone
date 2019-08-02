@@ -195,7 +195,6 @@ ul.nav-links {
 }
 /* grid list and image: */
 #list-fonts-parent {
-    background-color: #dd23aa;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 40em;
