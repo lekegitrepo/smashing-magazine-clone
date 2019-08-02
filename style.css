@@ -128,4 +128,19 @@ ul.nav-links {
     margin: 20px 20px;
     width: 98%;
 }
+.content-blocks {
+    background: #acedff;
+    display: flex;
+    flex-direction: column;
+    height:10em;
+    margin: 10px 0px;
+    width: 100%;
+}
+.author-special-block {
+    background: #1eedff;
+    display: flex;
+    flex-direction: row;
+    height: 6em;
+    width: 100%;
+}
 
