@@ -10,7 +10,7 @@ Built With:
 * CSS3
 
 # GitHub Page
-Live version:
+Live version: https://raw.githack.com/lekegitrepo/smashing-magazine-ux-structure/nav/index.html
 
 # Authors
 * <a href="https://github.com/lekegitrepo">Adeleke Temitayo</a>
