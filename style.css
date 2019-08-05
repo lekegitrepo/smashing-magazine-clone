@@ -5,7 +5,23 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    }
+h1, h2, button {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
+h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Merriweather', serif;
+}
+a {    
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .header-nav {
     background-color:#A9A9A9;  
 }
@@ -101,7 +117,7 @@ ul.nav-links {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    line-height: 30px;
+    line-height: 40px;
     padding-top: 30px;
     text-align: center;
 }
@@ -112,7 +128,7 @@ ul.nav-links {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    line-height: 30px;
+    line-height: 40px;
     padding-top: 30px;
     text-align: center;
 }
@@ -123,7 +139,7 @@ ul.nav-links {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    line-height: 30px;
+    line-height: 40px;
     padding-top: 30px;
     text-align: center;
 }
@@ -139,12 +155,15 @@ ul.nav-links {
 #newletter-section .box-1 {
     background: #808080;
     border-radius: 10px;
+    height: 300px;
+    margin-top:130px;
     text-align: center;
     width: 30%;
 }
 #newletter-section .box-2 {
     background: #696969;
     border-radius: 60px;
+    line-height: 110px;
     margin: 0px 35px 0px 10px;
     text-align: center;
     width: 70%;
@@ -168,13 +187,13 @@ button {
     cursor: pointer;   
     height:70px;
     opacity:;
-    width:150px;
+    width:250px;
 }
 /*icons: */
 #icons-section {
     display: flex;
     flex-direction: row;
-    height: 600px;
+    height: 500px;
     margin: 20px 20px;
     justify-content: space-around;
     width: 100%;
@@ -182,6 +201,10 @@ button {
 #icons-section .icons-1 {
     background: #DCDCDC;
     border-radius: 10px;
+    line-height: 30px;
+    height:300px;
+    margin-top: 130px;
+    padding:40px;
     text-align: center;
     width: 30%;
 }
@@ -190,6 +213,7 @@ button {
     border-radius: 60px;
     text-align: center;
     margin: 0px 35px 0px 10px;
+    padding: 70px;
     width: 70%;
 }
 /* links alone: */
@@ -309,13 +333,29 @@ button {
     justify-content: center;
     align-items: center;
 }
-ul  .title{
+ul .title{
     list-style-type: none;
+    font-size:30px;
+}
+.list-parent {
+    height: 300px;
 }
 .types-fonts {
+    cursor:pointer;
     text-align: center;
     line-height: 30px;
     padding-top: 30px;
+}
+.first-list {
+    cursor:pointer;
+}
+ .second-list {
+    font-weight: bold;
+    cursor:pointer;
+}
+.third-list {
+    font-style: italic;
+    cursor:pointer;
 }
 
 /* grid list and image: */
@@ -329,10 +369,13 @@ ul  .title{
 }
 .types-fonts {  
     background: #DCDCDC;
+    border-radius: 5px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    height: 300px;
+    margin-top: 120px;
 }
 .big-fig {
     align-items: center;
