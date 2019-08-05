@@ -261,6 +261,7 @@ button {
     grid-row-start: 1;
     grid-row-end: 2;
     padding: 50px; 
+    
 }
 .thais {
     background: #A9A9A9;
@@ -334,15 +335,15 @@ ul  .title{
     grid-row-end: 2;
 }
 .big-fig {
+    align-items: center;
     background:#696969;
     color: #fff;
+    display: flex;
+    flex-direction: column;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 2;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    grid-row-end: 2;   
     justify-content: center;    
 }
 /*footer*/
