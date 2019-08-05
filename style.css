@@ -308,6 +308,14 @@ button {
     justify-content: center;
     align-items: center;
 }
+ul  .title{
+    list-style-type: none;
+}
+.types-fonts {
+    text-align: center;
+    line-height: 30px;
+    padding-top: 30px;
+}
 
 /* grid list and image: */
 #list-fonts-parent {
@@ -332,6 +340,10 @@ button {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
 }
 /*footer*/
 footer {
