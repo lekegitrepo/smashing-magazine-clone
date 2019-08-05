@@ -149,6 +149,27 @@ ul.nav-links {
     text-align: center;
     width: 70%;
 }
+input {
+    border: 1px solid rgba(64,128,8);
+    border-radius: 8px;
+    height: 40px;
+    outline: none;
+    text-align: center;
+    width: 80%;
+}
+input[type="text"] {
+    font-size: 20px;
+}
+button {
+    background-image:linear-gradient(to right, rgba(145,232,66,1) 0%, rgba(64,128,8,1) 100%);
+    border-radius: 10px;
+    border: 1px solid rgba(64,128,8);
+    color:white;
+    cursor: pointer;   
+    height:70px;
+    opacity:;
+    width:150px;
+}
 /*icons: */
 #icons-section {
     display: flex;
@@ -161,11 +182,13 @@ ul.nav-links {
 #icons-section .icons-1 {
     background: #DCDCDC;
     border-radius: 10px;
+    text-align: center;
     width: 30%;
 }
 #icons-section .icons-2 {
     background: #DCDCDC;
     border-radius: 60px;
+    text-align: center;
     margin: 0px 35px 0px 10px;
     width: 70%;
 }
@@ -198,6 +221,7 @@ ul.nav-links {
 .hire-us {
     background-image:linear-gradient(to right, rgba(145,232,66,1) 0%, rgba(64,128,8,1) 100%);
     border-radius: 10px;
+    border: 1px solid rgba(64,128,8);
     color:white;
     cursor: pointer;   
     height:70px;
@@ -213,9 +237,12 @@ ul.nav-links {
     display: flex;
     flex-direction: row;
     height: 20em;
-    padding: 50px;   
+    padding: 10px;   
     width: 100%;
 }
+.author-special-block .founder-img {
+    padding-right: 30px;
+} 
 /*grid employees: */
 #employees {
     display: grid;
