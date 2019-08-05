@@ -35,17 +35,23 @@ ul.nav-links {
 #grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 50% 50%;
+    height: 100vw;
+    margin: 20px 0px;
 }
 #page-pointer {
     align-items: center;
-    background: #ffff;
     justify-content: center;
     left: 30%;
     margin: 6% 2%;
     position: absolute;
+    text-align: center;
     top: 20%;
     width: 40%;
+}
+#page-pointer span {
+    background: #3f3f3f;
+    color: #fff;
 }
 .courses-1 {
     background: #949494;
@@ -79,9 +85,12 @@ ul.nav-links {
 #article-parent, #article-parent-2, #list-parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px;
+    grid-template-rows: 100%;
+    grid-column-gap: 5px;
+    height: 60vw;
 }
 .article-one, .first-list {
+    border-radius: 5px;
     background-color: #DCDCDC;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -89,6 +98,7 @@ ul.nav-links {
     grid-row-end: 2;
 }
 .article-two, .second-list {
+    border-radius: 5px;
     background-color: #DCDCDC;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -96,6 +106,7 @@ ul.nav-links {
     grid-row-end: 2;
 }
 .article-three, .third-list {
+    border-radius: 5px;
     background-color: #DCDCDC;
     grid-column-start: 3;
     grid-column-end: 4;
@@ -113,11 +124,13 @@ ul.nav-links {
 }
 #newletter-section .box-1 {
     background: #808080;
+    border-radius: 10px;
     width: 30%;
 }
 #newletter-section .box-2 {
     background: #696969;
-    margin: 0px 30px;
+    border-radius: 60px;
+    margin: 0px 35px 0px 10px;
     width: 70%;
 }
 /*icons: */
@@ -131,11 +144,13 @@ ul.nav-links {
 }
 #icons-section .icons-1 {
     background: #DCDCDC;
+    border-radius: 10px;
     width: 30%;
 }
 #icons-section .icons-2 {
     background: #DCDCDC;
-    margin: 0px 30px;
+    border-radius: 60px;
+    margin: 0px 35px 0px 10px;
     width: 70%;
 }
 /* link alone: */
