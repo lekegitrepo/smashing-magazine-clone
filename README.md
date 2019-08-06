@@ -1,18 +1,20 @@
-# smashing-magazine-clone
+# adaptation-of-UX-structure-of-smashing-magazine's-webpage
 
-PROJECT: DESIGN TEARDOWN
-
-A clone of <a href="https://www.smashingmagazine.com/2019/07/desktop-wallpaper-calendars-august-2019/">Smashing Magazine</a>.<br>
-
-<br><br>
-Built With:
-* HTML5
-* CSS3
+<a href="https://www.smashingmagazine.com/2019/07/desktop-wallpaper-calendars-august-2019/">Smashing Magazine Original Version</a>.<br>
 
 # GitHub Page
-Live version: https://raw.githack.com/lekegitrepo/smashing-magazine-ux-structure/nav/index.html
 
-# Authors
-* <a href="https://github.com/lekegitrepo">Adeleke Temitayo</a>
-* <a href="https://github.com/thsvr">Thaís Vieira Azevedo</a>
+<a href="https://raw.githack.com/lekegitrepo/smashing-magazine-ux-structure/nav/index.html">Live version</a>
+
+
+# Built With:
+
+* HTML5
+* CSS3
+Skils: Flexbox, grid and gradients.
+
+
+# Authors - click on the links below to see the authors' github.
+* <a href="https://github.com/lekegitrepo"> Github: Adeleke Temitayo</a>
+* <a href="https://github.com/thsvr"> Github: Thaís Vieira Azevedo</a>
 
