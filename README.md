@@ -11,7 +11,8 @@
 
 * HTML5
 * CSS3
-Skils: Flexbox, grid and gradients.
+
+*Skils: Flexbox, grid and gradients.
 
 
 # Authors - click on the links below to see the authors' github.
