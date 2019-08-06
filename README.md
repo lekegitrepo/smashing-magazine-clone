@@ -4,7 +4,7 @@
 
 # GitHub Page
 
-<a href="https://raw.githack.com/lekegitrepo/smashing-magazine-ux-structure/nav/index.html">Live version</a>
+<a href="https://raw.githack.com/lekegitrepo/smashing-magazine-ux-structure/master/index.html">Live version</a>
 
 
 # Built With:
